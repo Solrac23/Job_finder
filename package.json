@@ -1,0 +1,34 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores encontrarem vagas de trabalho",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solrac23/Job_finder.git"
+  },
+  "keywords": [
+    "dev",
+    "jobs"
+  ],
+  "author": "Carlos Eduardo <eduardosantoos573@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Solrac23/Job_finder/issues"
+  },
+  "homepage": "https://github.com/Solrac23/Job_finder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1",
+    "sequelize": "^5.21.10",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
